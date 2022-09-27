@@ -29,6 +29,12 @@
 - blender, vertices, lines, faces (skeleton)
 - wireframe and material
 
+## Course 6 Materials
+- spheres and mesh
+- (https://textures.com) and (https://polyhaven.com)
+- load textures into new public folder
+- normal, roughness, displacement maps.
+
 
 
 
