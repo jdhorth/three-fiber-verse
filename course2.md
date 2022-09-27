@@ -12,3 +12,13 @@
 - git add .
 - git commit -m "course2 orbit controls"
 - git push origin head
+
+## Course 3 Helpers (https://www.youtube.com/watch?v=i-bazolfECA&t=602s) 
+- npm install @react-three/drei
+- axis helper
+- grid helper
+- background color
+
+
+
+
