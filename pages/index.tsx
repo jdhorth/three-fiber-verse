@@ -23,11 +23,12 @@ const TexturedSpheres = () => {
           roughnessMap={roughnessMap} />
       </mesh>
       <mesh scale={[0.5, 0.5, 0.5]} position={[1, 0, 0]}>
-        <sphereGeometry />
+        <sphereGeometry args={[1, 200, 200]} />
         <meshStandardMaterial map={map}
           normalMap={normalMap}
           roughnessMap={roughnessMap}
-          displacementMap={displacementMap} />
+          displacementMap={displacementMap}
+          displacementScale={0.05} />
       </mesh>
     </>
   );
