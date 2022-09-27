@@ -19,6 +19,16 @@
 - grid helper
 - background color
 
+## Course 4 Cameras (https://www.youtube.com/watch?v=TowjQhQ_-v4)
+- threejs.org cameras
+- perpective camera is like eyes
+- orthographic camera custom or default
+
+## Course 5 Geometries
+- geomtries 3D objects
+- blender, vertices, lines, faces (skeleton)
+- wireframe and material
+
 
 
 
