@@ -46,9 +46,11 @@
 - import a tree turbosquid tree model
 - ref making a tree in blender (https://www.youtube.com/watch?v=V0LyhVM6ILk)
 - trees and shading apply and export (https://youtu.be/p-9pgZI3inI)
-- jsx tool or use cli (https://gltf.pmnd.rs/)
+- jsx tool or use cli (https://gltf.pmnd.rs/) 
 
-
+## Course 10 Transforms
+- cleaned up code and import trees
+- use transforms placement parameters x, y, z
 
 
 
