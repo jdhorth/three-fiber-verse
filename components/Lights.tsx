@@ -9,9 +9,9 @@ const Lights: React.FC = () => {
 
     return (
         <>
-            <ambientLight intensity={0.3} />
+            <ambientLight intensity={0.2} />
             <directionalLight ref={lightRef}
-                position={[0, 20, 20]}
+                position={[65, 40, 100]}
                 castShadow
                 shadow-mapSize-height={1000}
                 shadow-mapSize-width={1000}
@@ -19,7 +19,7 @@ const Lights: React.FC = () => {
                 shadow-camera-right={20}
                 shadow-camera-top={20}
                 shadow-camera-bottom={-20} />
-            <hemisphereLight args={["#7cdbe6", "#5e9c49", 0.7]} />
+            <hemisphereLight args={["#7cdbe6", "#5e9c49", 0.5]} />
         </>
     );
 }

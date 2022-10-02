@@ -51,6 +51,13 @@
 ## Course 10 Transforms
 - cleaned up code and import trees
 - use transforms placement parameters x, y, z
+- move, rotate and scale, vector 3
+
+## Course 11
+- bunch of tree model instances
+
+## Animation
+- 
 
 
 
