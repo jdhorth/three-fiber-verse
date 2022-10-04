@@ -56,8 +56,17 @@
 ## Course 11
 - bunch of tree model instances
 
-## Animation
-- 
+## Course 12
+- animated box slide and bounce
+- add animation to objects
+
+## Course 13
+- figure animations (https://youtu.be/eIDjJxX7-gk)
+- add animation to bones
+- upload fbx to mixamo, add animations
+- add mixamo rig animations addon to blender (https://substance3d.adobe.com/plugins/mixamo-in-blender/)
+- player in scene with run and jump animations
+
 
 
 

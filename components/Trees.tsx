@@ -35,7 +35,7 @@ const Trees: React.FC<props> = ({ boundary, count }) => {
         for (let i = 0; i < count; i++) {
             tempTrees.push({ position: { x: 0, z: 0 }, box: 1 });
         }
-        console.log(tempTrees);
+        //console.log(tempTrees);
         updatePosition(tempTrees, boundary);
     }, [boundary, count]);
 

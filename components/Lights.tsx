@@ -3,7 +3,7 @@ import { useRef } from "react"
 import { DirectionalLightHelper } from "three"
 
 const Lights: React.FC = () => {
-    const lightRef = useRef<THREE.DirectionalLight>();
+    const lightRef = useRef<THREE.DirectionalLight | null>(null);
 
     useHelper(lightRef, DirectionalLightHelper, 5, "red")
 
