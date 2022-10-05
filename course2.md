@@ -67,6 +67,13 @@
 - add mixamo rig animations addon to blender (https://substance3d.adobe.com/plugins/mixamo-in-blender/)
 - player in scene with run and jump animations
 
+## Course 14
+- folder structure
+- keypress animations
+
+## Course 15
+- moving the player
+
 
 
 

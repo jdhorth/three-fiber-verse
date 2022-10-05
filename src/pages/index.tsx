@@ -1,29 +1,11 @@
 import type { NextPage } from 'next'
 import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Stats, useAnimations, useGLTF, useTexture } from "@react-three/drei"
+import { OrbitControls, Stats } from "@react-three/drei"
 import Lights from '../components/Lights'
 import Ground from '../components/Ground'
 import Trees from '../components/Trees'
-import { useEffect } from 'react'
+import Player from '../components/Player'
 
-const MyPlayer = () => {
-  const model = useGLTF("./models/player.glb");
-  const { actions } = useAnimations(model.animations, model.scene);
-
-  model.scene.traverse((object) => {
-    if (object.isMesh) {
-      object.castShadow = true;
-    }
-  });
-
-  console.log(model);
-
-  useEffect(() => {
-    actions?.run?.play();
-  }, []);
-
-  return <primitive object={model.scene} />
-}
 
 
 const Home: NextPage = () => {
@@ -38,7 +20,7 @@ const Home: NextPage = () => {
         <OrbitControls />
         <Trees boundary={200} count={40} />
         <Lights />
-        <MyPlayer />
+        <Player />
         <Ground />
       </Canvas>
     </div>
