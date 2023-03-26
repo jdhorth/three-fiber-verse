@@ -17,9 +17,11 @@ const Trees: React.FC<props> = ({ boundary, count }) => {
     const [trees, setTrees] = useState<treeType[]>([]);
 
     model.scene.traverse((object) => {
+        //@ts-ignore
         if (object.isMesh) {
             object.castShadow = true;
         }
+
     });
 
     const updatePosition = (treeArray: treeType[], boundary: number) => {
