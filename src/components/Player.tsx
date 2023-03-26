@@ -46,7 +46,7 @@ const Player = () => {
         }
     });
 
-    console.log(model);
+    //console.log(model);
 
     const currentAction = useRef("");
     const controlsRef = useRef<typeof OrbitControls>();
@@ -87,12 +87,12 @@ const Player = () => {
         }
 
         //actions?.run?.play();
-        console.log("forward: ", forward);
-        console.log("backward: ", backward);
-        console.log("left: ", left);
-        console.log("right: ", right);
-        console.log("jump: ", jump);
-        console.log("shift: ", shift);
+        // console.log("forward: ", forward);
+        // console.log("backward: ", backward);
+        // console.log("left: ", left);
+        // console.log("right: ", right);
+        // console.log("jump: ", jump);
+        // console.log("shift: ", shift);
     }, [forward, backward, left, right, jump, shift]);
 
     useFrame((state, delta) => {
@@ -128,7 +128,7 @@ const Player = () => {
             walkDirection.applyAxisAngle(rotateAngle, newDirectionOffset);
 
             // run / walk velocity
-            const velocity = currentAction.current == "running" ? 10 : 5;
+            const velocity = currentAction.current == "run" ? 10 : 5;
 
             // move model & camera
             const moveX = walkDirection.x * velocity * delta;

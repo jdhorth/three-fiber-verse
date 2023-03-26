@@ -73,6 +73,15 @@
 
 ## Course 15
 - moving the player
+- added the movements
+- my dude does the moonwalk backwards
+
+## 3D Animation videos and links
+- https://www.youtube.com/watch?v=8n_v1aJmLmc 
+- https://www.youtube.com/watch?v=8UB78yGtEJA&t=170s glb and create js file for import.
+- command npx gltfjsx demo-name.glb
+- load animated characters in react three fiber 
+- https://www.youtube.com/watch?v=q7yH_ajINpA
 
 
 

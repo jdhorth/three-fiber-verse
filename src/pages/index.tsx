@@ -13,6 +13,7 @@ const Home: NextPage = () => {
 
   return (
     <div className="container">
+
       <Canvas shadows camera={{ position: [-8, 12, -26], fov: 75, near: 0.1, far: 1000 }}>
         {testing ? <Stats /> : null}
         {testing ? <axesHelper args={[2]} /> : null}
